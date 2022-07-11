@@ -14,7 +14,7 @@ print("Welcome", name, "this is the number guesser game")
 print("Please guess a number between", numberOneRange, "and", numberTwoRange)
 userAnswer = input("Enter number: ")
 
-#While statement to capture the answer from the user
+#While statement to capture the answer from the user and check if correct or not
 while(True):
     if userAnswer != correctAnswer:
         print("WRONG ANSWER TRY AGAIN") 
