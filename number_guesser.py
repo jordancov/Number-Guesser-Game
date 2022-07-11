@@ -13,11 +13,11 @@ print("Please guess a number between", numberOneRange, "and", numberTwoRange)
 
 userAnswer = input("Enter number: ")
 
-while userAnswer != correctAnswer:
-    print("WRONG ANSWER TRY AGAIN") 
-    userAnswer = input("Enter number: ")
+while(True):
+    if userAnswer != correctAnswer:
+        print("WRONG ANSWER TRY AGAIN") 
+        userAnswer = int(input("Enter number: "))
     if userAnswer == correctAnswer:
         print("WOW well done you got the right number!")
         break
-
     
